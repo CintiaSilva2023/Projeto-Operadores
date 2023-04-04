@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Vamos Estudar &#9200;&#9757;&#127996;&#128214;</h1>
+    <div id="container">
+
+
+
+        <div id="adc">
+            <h2>Adição</h2>
+            <span>Primeiro número : <input type="number" id="num01"></span><br>
+            <span>Segundo número : <input type="number" id="num02"></span><br>
+            <button type="button" value="Calcular" onclick="calcula()">Calcular</button>
+            <button onclick="window.location.reload()">Voltar</button>
+            <div id="txt_resul">Resultado</div>
+        </div>
+
+        <div id="sub">
+            <h2>Subtração</h2>
+            <span>Primeiro número : <input type="number" id="nu01"></span><br>
+            <span>Segundo número : <input type="number" id="nu02"></span><br>
+            <button type="button" value="Calcular" onclick="calcular()">Calcular</button>
+            <button onclick="window.location.reload()">Voltar</button>
+            <div id="txt_resu">Resultado</div>
+        </div>
+
+        <div id="mult">
+            <h2>Multiplicação</h2>
+            <span>Primeiro número : <input type="number" id="txt_nu01"></span><br>
+            <span>Segundo número : <input type="number" id="txt_nu02"></span><br>
+            <button type="button" value="calculo" onclick="calculo()">Calcular</button>
+            <button onclick="window.location.reload()">Voltar</button>
+            <div id="txt_rst">Resultado</div>
+        </div>
+
+        <div id="divs">
+            <h2>Divisão</h2>
+            <span>Primeiro número : <input type="number" id="txt_n01"></span><br>
+            <span>Segundo número : <input type="number" id="txt_n02"></span><br>
+            <button type="button" value="calc" onclick="calc()">Calcular</button>
+            <button onclick="window.location.reload()">Voltar</button>
+            <div id="txt_rstd">Resultado</div>
+        </div>
+
+        <div id="raiz">
+            <h2>Raiz Quadrada</h2>
+            <span>Digite o número : <input type="number" id="raiz01"></span><br>
+            <button type="button" value="calcu" onclick="calcu()">Calcular</button>
+            <button onclick="window.location.reload()">Voltar</button>
+            <div id="raiz_resu">Resultado</div>
+        </div>
+
+        <div id="fatorial">
+            <h2>Fatorial</h2>
+            <span>Digite o número : <input type="number" id="fato"></span><br>
+            <button type="button" value="cal" onclick="cal()">Calcular</button>
+            <button onclick="window.location.reload()">Voltar</button>
+            <div id="fato_resul">Resultado</div>
+        </div>
+
+        <div id="num_p_i">
+            <h2>Par ou Ímpar</h2>
+            <span>Digite o número : <input type="number" id="par_impar"></span><br>
+            <button type="button" class="btn-re" onclick="identificar()">Resposta</button>
+            <button onclick="window.location.reload()">Voltar</button>
+            <div id="numpi_resul">Resultado</div>
+        </div>
+
+        <div id="porcentagemDesconto">
+            <h2>Porcentagem</h2>
+            <span>Digite o Valor : <input type="number" id="porceValor"></span>
+            <span> Desconto : <input type="number" id="porce"> %</span><br>
+            <button type="button" class="btn-porc" onclick="calcule()">Calcular</button>
+            <button onclick="window.location.reload()">Voltar</button>
+            <div id="resul_porce">Resultado</div>
+        </div>
+
+        <div id="porcentagemAcrescimo">
+            <h2>Porcentagem</h2>
+            <span>Digite o Valor : <input type="number" id="porceValo"></span>
+            <span>Acrescimo : <input type="number" id="porcen"> %</span><br>
+            <button type="button" class="btn-porc" onclick="calcul()">Calcular</button>
+            <button onclick="window.location.reload()">Voltar</button>
+            <div id="resul_porcen">Resultado</div>
+        </div>
+
+        <div id="tabuada">
+            <h2>Tabuada</h2>
+            <span>Digite um número: <input type="number" id="num_tabu"></span><br>
+            <button type="button" onclick="calcularTabuada()">Calcular</button>
+            <button onclick="window.location.reload()">Voltar</button>
+            <div id="resul_tabu"></div>
+        </div>
+
+    </div>
+
+    <script src="js/ad.js"></script>
+    <script src="js/sub.js"></script>
+    <script src="js/mult.js"></script>
+    <script src="js/divs.js"></script>
+    <script src="js/raiz.js"></script>
+    <script src="js/fator.js"></script>
+    <script src="js/parImpar.js"></script>
+    <script src="js/porcen_Descon.js"></script>
+    <script src="js/porcen_Acresc.js"></script>
+    <script src="js/tabuada.js"></script>
+</body>
+
+</html>

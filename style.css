@@ -1,0 +1,176 @@
+body {
+    background-color: black;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 30pt;
+    margin-bottom: 20px;
+    color: #fff;
+   
+}
+
+#adc {
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(244,245,18,1) 16%, rgba(162,231,86,1) 100%);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#sub {
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(75, 235, 235) 16%, rgba(67, 108, 221, 0.651) 100%);
+    border-radius: 10px;
+    margin: 15px;
+
+}
+
+#mult {
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(211, 115, 120) 16%, rgb(126, 9, 120) 100%);
+    border-radius: 10px;
+    margin: 15px;
+
+}
+
+#divs {
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(245,174,18,1) 16%, rgba(232,8,20,1) 100%);
+    border-radius: 10px;
+    margin: 15px;
+
+}
+#raiz {
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+    background: radial-gradient(circle, rgba(81,104,221,1) 0%, rgba(68,61,61,0.8911939775910365) 100%);
+    border-radius: 10px;
+    margin: 15px;
+}
+#fatorial {
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+    background: linear-gradient(304deg, rgba(73,72,60,0.9360119047619048) 30%, rgb(145, 144, 134) 59%, rgba(183, 189, 187, 0.947) 100%);    
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#num_p_i {
+    margin: 15px;
+    width: 300px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(58,180,99,1) 0%, rgba(213,29,253,1) 50%, rgba(252,176,69,1) 100%);    
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#porcentagemDesconto {
+    margin: 15px;
+    width: 300px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(150, 179, 160) 0%, rgb(9, 245, 99) 50%, rgb(104, 184, 236) 100%);   
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#porcentagemAcrescimo{
+    margin: 15px;
+    width: 300px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(15,255,10,1) 0%, rgba(29,253,194,1) 50%, rgba(79,252,69,1) 100%); 
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#tabuada {
+    margin: 15px;
+    padding: 10px;
+    background: #d2d6d5;
+    width: 300px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    animation: colorBorder 2s linear infinite;
+    
+}
+@keyframes colorBorder {
+    0% {
+        border-color: #ff0000; /* vermelho */
+      }
+      30%{
+        border-color: #ea00ff;
+      }
+      50% {
+        border-color: #00ff00; /* verde */
+      }
+      70%{
+        border-color: #e0f804;
+      }
+      100% {
+        border-color: #0000ff; /* azul */
+      }
+  }
+  
+     
+#adc h2, #sub h2, #mult h2, #divs h2, #raiz h2, #fatorial h2,#num_p_i h2, #porcentagemDesconto h2, #porcentagemAcrescimo h2, #tabuada h2 {
+    margin:15px;
+    text-shadow: 2px 2px #fff;
+    font-size: 25pt;
+    text-align: center;
+}
+
+
+span{
+    font-size: 18pt;
+}
+
+input {
+    font-size: 12pt;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-re {
+    width: 90px;
+    
+}
+
+button {
+    margin: 10px;
+    margin-left: 50px;
+    width: 80px;
+    font-size: 13pt;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+button:hover {
+    box-shadow: 3px 3px 8px 2px black;
+}
+
+#txt_resul, #txt_resu, #txt_rst, #txt_rstd, #raiz_resu, #fato_resul, #numpi_resul, #resul_porce, #resul_porcen, #resul_tabu{
+    font-size: 25px;
+    margin-top: 18px;
+    text-decoration: underline;
+}
+
+#raiz_resu, #fato_resul, #numpi_resul {
+    margin-top: 50px;
+}
+
