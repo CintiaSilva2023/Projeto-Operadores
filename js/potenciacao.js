@@ -18,5 +18,6 @@ function calcularPotenciacao(){
         resul_potenciacao.style.textAlign = 'center'
         resul_potenciacao.style.borderRadius = '5px'
         
+        
     }
 }
