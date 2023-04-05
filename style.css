@@ -149,9 +149,10 @@ span{
 
 input {
     font-size: 12pt;
-    width: 100px;
+    width: 80px;
     border-radius: 5px;
     text-align: center;
+    
 }
 
 .btn-re {
@@ -182,3 +183,10 @@ button:hover {
     margin-top: 50px;
 }
 
+#porce  {
+    margin-left: 45px;
+}
+
+#porcen {
+    margin-left: 32px;
+}
