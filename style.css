@@ -98,6 +98,15 @@ h1{
     margin: 15px;
 }
 
+#potenciacao {
+    margin: 15px;
+    width: 300px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(236, 88, 88) 20%, rgb(233, 190, 216) 100%); 
+    border-radius: 10px;
+    margin: 15px;
+}
+
 #tabuada {
     margin: 15px;
     padding: 10px;
@@ -127,7 +136,7 @@ h1{
   }
   
      
-#adc h2, #sub h2, #mult h2, #divs h2, #raiz h2, #fatorial h2,#num_p_i h2, #porcentagemDesconto h2, #porcentagemAcrescimo h2, #tabuada h2 {
+#adc h2, #sub h2, #mult h2, #divs h2, #raiz h2, #fatorial h2,#num_p_i h2, #porcentagemDesconto h2, #porcentagemAcrescimo h2, #tabuada h2, #potenciacao h2{
     margin:15px;
     text-shadow: 2px 2px #fff;
     font-size: 25pt;
@@ -164,7 +173,7 @@ button:hover {
     box-shadow: 3px 3px 8px 2px black;
 }
 
-#txt_resul, #txt_resu, #txt_rst, #txt_rstd, #raiz_resu, #fato_resul, #numpi_resul, #resul_porce, #resul_porcen, #resul_tabu{
+#txt_resul, #txt_resu, #txt_rst, #txt_rstd, #raiz_resu, #fato_resul, #numpi_resul, #resul_porce, #resul_porcen, #resul_tabu, #resul_poten{
     font-size: 25px;
     margin-top: 18px;
     text-decoration: underline;
